@@ -21,7 +21,7 @@ public class GenAIServiceImpl implements GenAIService{
 
      String res =  model.generate(modifiedRequest.question());
         if (res.toLowerCase().contains("yes")) {
-            return "yes";
+            return "Yes, Correct JSON!";
         }
 
         String[] lines = res.split("\\r?\\n");
