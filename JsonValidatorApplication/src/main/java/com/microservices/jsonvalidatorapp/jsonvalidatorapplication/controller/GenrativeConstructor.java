@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@CrossOrigin(origins = {"http://localhost:3000", "https://json-validation-ui-using-react-l0selo2bs-krushnnas-projects.vercel.app/api/chat", "https://json-validation-ui-using-react-l0selo2bs-krushnnas-projects.vercel.app/"})
+@CrossOrigin(origins = {"http://localhost:3000","https://json-validation-ui-using-react-production.up.railway.app/app/chat","https://json-validation-ui-using-react-production.up.railway.app/", "https://json-validation-ui-using-react-l0selo2bs-krushnnas-projects.vercel.app/api/chat", "https://json-validation-ui-using-react-l0selo2bs-krushnnas-projects.vercel.app/"})
 @RequestMapping("/api/chat")
 public class GenrativeConstructor {
 
